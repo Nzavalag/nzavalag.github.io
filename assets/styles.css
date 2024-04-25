@@ -1,23 +1,71 @@
-.foto{
-    background: rgb(69, 69, 70);
-    background: linear-gradient(0deg, rgb(5, 5, 5) 0%, rgb(85, 84, 90) 100%);
-    padding: 180px;
+
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .encabezado {
+    background-image: url("./images/teleco.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    display: block;
+  }
+.img-perfil{
+    width: 15rem;
+    border-radius: 30%;
 }
 
-.img-profile{
-    outline: 20px solid #b0a0ff77;
-    background-color: #fff;
-    display: flex;
-    flex-flow: row;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
+  .section {
+    padding: 50px 0;
+    position: relative;
 }
 
-.me-1-container{
-    width: 320px;
-    height: 320px;
+h2 {
+  font-weight: 900;
+  color: #414e6e;
+  font-size: 2rem;
+
 }
-.me-image-1{
-    width: 240px;
+
+.section-title h2 {
+    font-weight: 700;
+    color: #414e6e;
+    font-size: 45px;
+    border-left: 5px solid #9cb6dd;
+    padding-left: 15px;
+}
+.rrss a{
+  color: #6a7fc1;
+}
+.rrss a:hover{
+  color: #414e6e;
+}
+
+.box {
+  background: #ffffff;
+  box-shadow: 0 0 1.25rem rgba(96, 6, 78, 0.08);
+  border-radius: 10px;
+}
+
+.box ul {
+  margin: 0;
+  padding: 30px 20px;
+  list-style: none;
+}
+.box hr {
+  color: rgb(78, 0, 0);
+  margin: 10px;
+
+}
+.box h5 {
+  font-weight: 700;
+  color: #000000;
+  font-size: 25px;
+}
+.box span {
+  font-weight: 700;
+  color: #001b42;
+  font-size: 15px;
 }
