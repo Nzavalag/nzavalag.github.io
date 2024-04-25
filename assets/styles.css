@@ -69,3 +69,25 @@ h2 {
   color: #001b42;
   font-size: 15px;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 20px;
+    color: #000;
+  }
+  .footer-derechos {
+    padding-top: 20px;
+  }
+  .footer-logo img {
+    width: 70px;
+  }
+  .footer-redes a {
+    color: #000;
+    font-size: 30px;
+    padding: 15px;
+  }
+  .red-social:hover {
+    text-shadow: 2px 2px 5px #424242;
+  }
